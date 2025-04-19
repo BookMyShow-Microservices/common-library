@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.bookmyshow</groupId>
 	<artifactId>common-library</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>common-library</name>
 	<description>Common Library</description>
@@ -56,12 +56,10 @@
 		</plugins>
 	</build>
 
-	<distributionManagement>
+	<repositories>
 		<repository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/BookMyShow-Microservices/common-library</url>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
 		</repository>
-	</distributionManagement>
-
+	</repositories>
 </project>
